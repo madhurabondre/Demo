@@ -30,7 +30,7 @@ var Manager = /** @class */ (function (_super) {
     };
     Manager.prototype.getEmployeeDetails = function () {
         _super.prototype.getEmployeeDetails.call(this);
-        console.log('Skills ', this.skill);
+        console.log('Skills of employee', this.skill);
         this.getContactDetails();
     };
     return Manager;
