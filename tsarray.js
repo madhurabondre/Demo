@@ -10,10 +10,10 @@ cars.forEach(function(value){
     console.log(value);
 })*/
 var employees = [
-    { id: 100, name: 'Parag Joshi' },
-    { id: 101, name: 'Pankaj Rathi' },
-    { id: 102, name: 'Akash More' },
-    { id: 103, name: 'Sanjana Kale' }
+    { id: 100, name: 'Anjali Ubale' },
+    { id: 101, name: 'Madhura Bondre' },
+    { id: 102, name: 'Aishu Tibile' },
+    { id: 103, name: 'Shraddha Kadam' }
 ];
 var employeeids = employees.map(function (emp) {
     return emp.id + " " + emp.name;
