@@ -12,9 +12,9 @@ var Employee = /** @class */ (function () {
         this.isMarried = isMarried;
     }
     Employee.prototype.getEmployeeDetails = function () {
-        console.log("Employee Name: ", this.ename);
-        console.log("Employee Age: ", this.age);
-        console.log("Employee Married: ", this.isMarried);
+        console.log("Employee Name is  ", this.ename);
+        console.log("Employee Age is  ", this.age);
+        console.log("Employee Married is  ", this.isMarried);
     };
     return Employee;
 }());
