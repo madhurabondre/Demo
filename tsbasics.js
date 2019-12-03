@@ -25,7 +25,7 @@ console.log(x);
 console.log(y);
 */
 var firstname = "Sachin";
-var lastname = "Deshpande";
+var lastname = "Tendulkar";
 var middlename;
 function getFullName(fname, lname) {
     return (fname == "" ? firstname : fname) + " " + (lname == "" ? lastname : lname);
@@ -51,7 +51,7 @@ function add() {
     for (var i = 0; i < nums.length; i++) {
         total += nums[i];
     }
-    console.log("Total = ", total);
+    console.log("Total is ", total);
 }
 add(10, 20);
 add(10, 20, 30);
